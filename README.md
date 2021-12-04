@@ -8,7 +8,7 @@ Inside ERC721 contract each not fungible token represented as a NFT structure wh
 ```solidity
 struct NFT {
         uint256 value;          // NFT value 
-        string  metadata;       // ... metadata: IPFS path
+        string  metadata;       // ... metadata: I   PFS path
         uint256 kind;           // ... type
         uint256 level;          // ... activities level
         uint256 state;          // ... state
